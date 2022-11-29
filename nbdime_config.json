@@ -1,0 +1,14 @@
+{
+  "Diff": {
+    "Ignore": {
+      "/metadata": ["foo"],
+      "/cells/*/metadata": ["tags"]
+    }
+  },
+  "GitDiff": {
+    "Ignore": {
+      "/cells/*/outputs": true,
+      "/cells/*/metadata": ["collapsed", "autoscroll", "deletable", "editable"]
+    }
+  }
+}
